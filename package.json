@@ -1,0 +1,27 @@
+{
+  "name": "eos-oracles",
+  "version": "0.0.1",
+  "description": "Generic EOSIC project",
+  "scripts": {
+    "test": "yarn compile && eosic test",
+    "compile": "eosic compile",
+    "migrate": "eosic migrate",
+    "start": "eosic start",
+    "prepare": "tsc && node generator/prepare.js",
+    "generate": "yarn prepare && node generator/index.js"
+  },
+  "dependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "dot": "^1.1.2",
+    "eosic": "DucaturFw/eosic",
+    "eosjs": "^15.0.6",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/dot": "^1.1.2",
+    "chai": "4.1.2",
+    "mocha": "5.2.0",
+    "typescript": "^2.9.2"
+  }
+}
