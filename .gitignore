@@ -3,3 +3,4 @@ bashrc
 .DS_Store
 node_modules
 *.log
+bin

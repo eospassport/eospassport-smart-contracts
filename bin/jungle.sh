@@ -1,1 +1,0 @@
-docker-compose exec keosd /opt/eosio/bin/cleos -u http://dev.cryptolions.io:38888 --wallet-url http://localhost:8900 "$@"
